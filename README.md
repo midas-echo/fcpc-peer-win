@@ -19,12 +19,14 @@ Fuck Communist Party of China Network is a decentralized platform. On this platf
 
 设备要求：拥有公网IP。硬盘拥有100G以上的储存空间
 1.下载仓库后，打开"init.json"文件，填写以下参数：
+
     "ip"是你的公网IP地址。
     "port"是端口，你可以使用默认值。
     "hub"是进入Fuck Communist Party of China网络的初始路口，你可以使用默认值。也可以在hub.txt中任选一个。
     "dataDir"是保存数据的文件夹。
     "miner"是收取工资的账户。
     "password"是miner的密码。
+    
 2.运行'dist/peerMain.exe'或'dist/peerMain'创建节点。这个过程会花费一定时间，请耐心等待。
 3.节点搭建成功会出现“Info: Server is running on ...”。
 
@@ -33,11 +35,13 @@ Creating a peer:
 The device must havs a public IP address. The hard disk must has more than 100 GB of storage space.
 
 1. After downloading the repository, open the "init.json" file and fill in the following parameters:
+   
     "ip" is your public IP address.
     "port" is the port, you can use the default value.
     "hub" is the initial crossing into the Fuck Communist Party of China Network, you can use the default value. You can also select one in "hub.txt".
     "dataDir" is the folder where the data is stored.
     "miner" is an account that collects wages.
     "password" is the miner's password.
-2. Open a terminal window in the current folder and type:"dist/peerMain.exe" and run. Creating the peer may take a long time. Please be patient.
-3. If the peer is successfully established, will display:"Info: Server is running on...".
+   
+3. Open a terminal window in the current folder and type:"dist/peerMain.exe" and run. Creating the peer may take a long time. Please be patient.
+4. If the peer is successfully established, will display:"Info: Server is running on...".
